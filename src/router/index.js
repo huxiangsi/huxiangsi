@@ -17,8 +17,53 @@ const routes = [
     {
         path:'/Home',
         component:() => import('../components/Home'),
-        meta:{title:'主页'}
-    }
+        meta:{title:'主页'},
+        redirect:'/Welcome',
+        children:[
+            {
+                path:'/Welcome',
+                component: () => import('../components/Welcome'),
+                meta:{title:'欢迎您'}
+            },
+            {
+                path:'/users',
+                component:() => import('../components/secMenu/users')
+            },
+            {
+                path:'/roles',
+                component:() => import('../components/secMenu/roles')
+            },
+            {
+                path:'/rights',
+                component:() => import('../components/secMenu/rights')
+            },
+            {
+                path:'/goods',
+                component:() => import('../components/secMenu/goods')
+            },
+            {
+                path:'/params',
+                component:() => import('../components/secMenu/params')
+            },
+            {
+                path:'/categories',
+                component:() => import('../components/secMenu/categories')
+            },
+            {
+                path:'/orders',
+                component:() => import('../components/secMenu/orders')
+            },
+            {
+                path:'/reports',
+                component:() => import('../components/secMenu/reports')
+            }
+        ]
+    },
+    // {
+    //     path:'/users',
+    //     component:() => import('../components/secMenu/users'),
+    //     meta:{title:'用户列表'}
+    // }
 ]
 
 const router = new VueRouter({

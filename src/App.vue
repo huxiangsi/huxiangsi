@@ -17,4 +17,7 @@ export default {
 
 <style>
   @import url('./assets/css/global.css');
+  #app{
+    height: 100%;
+  }
 </style>

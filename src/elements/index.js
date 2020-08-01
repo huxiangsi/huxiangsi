@@ -5,15 +5,54 @@ import {Button,
         Input,
         Form, 
         FormItem,
-        Message 
+        Message,
+        Container,
+        Aside,
+        Main,
+        Header,
+        Menu,
+        Submenu,
+        MenuItem,
+        Breadcrumb,
+        BreadcrumbItem,
+        Table,
+        TableColumn,
+        Pagination,
+        Card,
+        Row,
+        Col,
+        Switch,
+        Tooltip,
+        Dialog,
+        MessageBox
 
         
         } from 'element-ui'
 /* Vue原型上挂载弹框消息组件 */
 Vue.prototype.$message = Message
+Vue.prototype.$confirm =  MessageBox.confirm
 
 Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Input)
 Vue.use(Button)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Container)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Submenu)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Pagination)
+Vue.use(Card)
+Vue.use(Col)
+Vue.use(Row)
+Vue.use(Switch)
+Vue.use(Tooltip)
+Vue.use(Dialog)
+
 
