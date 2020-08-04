@@ -61,7 +61,7 @@ export default {
 		requestData() {
 			/* 发起菜单区网络请求 */
 			this.$menu.get("menus").then((res) => {
-				console.log(res.data.data)
+				// console.log(res.data.data)
 				if (res.data.meta.status !== 200)
 					return this.$message.error(res.data.meta.msg)
 				this.menuList = res.data.data

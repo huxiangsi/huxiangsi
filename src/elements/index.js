@@ -24,7 +24,11 @@ import {Button,
         Switch,
         Tooltip,
         Dialog,
-        MessageBox
+        MessageBox,
+        Tag,
+        Tree,
+        Option,
+        Select
 
         
         } from 'element-ui'
@@ -54,5 +58,9 @@ Vue.use(Row)
 Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Option)
+Vue.use(Select)
 
 

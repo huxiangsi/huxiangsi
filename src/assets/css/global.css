@@ -4,4 +4,7 @@ body,
     padding: 0;
     margin: 0;
     height: 100%;
+    /* 给布局设置最小宽度 */
+    min-width: 1366px;
+    min-height: 882px;
 }
