@@ -39,7 +39,11 @@ const routes = [
             },
             {
                 path:'/goods',
-                component:() => import('../components/secMenu/goods')
+                component:() => import('../components/secMenu/goods'),                
+            },
+            {
+                path:'/addGoods',
+                component: () => import('../components/secMenu/goods/goodsList/addGoods')
             },
             {
                 path:'/params',

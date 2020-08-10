@@ -32,7 +32,13 @@ import {Button,
         Cascader,
         Alert,
         Tabs,
-        TabPane
+        TabPane,
+        Step,
+        Steps,
+        RadioGroup,
+        Checkbox,
+        CheckboxGroup,
+        Upload
 
         
         } from 'element-ui'
@@ -70,5 +76,11 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Step)
+Vue.use(Steps)
+Vue.use(RadioGroup)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Upload)
 
 

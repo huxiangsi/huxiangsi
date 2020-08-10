@@ -8,3 +8,7 @@ body,
     min-width: 1366px;
     /* min-height: 882px; */
 }
+/* 富文本编辑器样式 */
+.ql-editor{
+    min-height: 300px;
+}
