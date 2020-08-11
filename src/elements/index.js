@@ -38,7 +38,9 @@ import {Button,
         RadioGroup,
         Checkbox,
         CheckboxGroup,
-        Upload
+        Upload,
+        Timeline,
+        TimelineItem
 
         
         } from 'element-ui'
@@ -82,5 +84,7 @@ Vue.use(RadioGroup)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
 Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 
 
